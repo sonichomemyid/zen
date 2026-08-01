@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Off-canvas Sidebar</title>
+
+  <!-- Font Awesome CDN untuk Ikon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- TOMBOL HAMBURGER DI LUAR SIDEBAR -->
+  <button class="burger-btn" id="btn-toggle">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+
+  <!-- OVERLAY (BAGIAN GELAP SAAT SIDEBAR TERBUKA) -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- SIDEBAR (FULL CLOSE/OPEN) -->
+  <aside id="sidebar">
+    <div class="nav-header">
+      <div class="logo">
+        <i class="fa-solid fa-bolt"></i>
+        <span>LogoApp</span>
+      </div>
+      <!-- Tombol Tutup (X) -->
+      <button class="close-btn" id="btn-close">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <ul class="nav-links">
+      <li>
+        <a href="#">
+          <i class="fa-solid fa-house"></i>
+          <span>Beranda</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa-solid fa-chart-simple"></i>
+          <span>Dashboard</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa-solid fa-user"></i>
+          <span>Profil</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa-solid fa-gear"></i>
+          <span>Pengaturan</span>
+        </a>
+      </li>
+    </ul>
+  </aside>
+
+  <!-- KONTEN UTAMA -->
+  <main>
+    <h1>Konten Utama</h1>
+    <p>Klik tombol burger di pojok kiri atas untuk membuka sidebar full.</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+        </html>
+        
