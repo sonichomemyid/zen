@@ -71,6 +71,7 @@ header {
   height: 40px;       /* Atur tinggi gambar (sesuaikan keinginan, misal 30px - 40px) */
   width: auto;        /* Lebar mengikuti proporsi tinggi agar gambar tidak gepeng */
   object-fit: contain;
+  border: 1px solid #333;
 }
 
 /* --- Sidebar / Drawer --- */
@@ -163,7 +164,6 @@ header {
   border-radius: 0;
   margin-bottom: 30px;
   object-fit: cover;
-  border: 1px solid #333;
 }
 
 .hero-content h1 {
@@ -183,8 +183,14 @@ header {
 }
 
 .judul h1 {
-  font-size: 28px;
+  font-size: 26px;
+  line-height: 1.0;
   color: #03afff;
-  margin-bottom: 5px;
+  padding: 10px;
+}
+.judul p {
+  font-size: px;
+  color: #333;
+  margin: 0 0 10px 0;
   padding: 10px;
 }
