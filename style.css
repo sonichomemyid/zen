@@ -37,7 +37,7 @@ header {
 }
 
 .hamburger-btn .bar {
-  height: 2px;
+  height: 3px;
   background-color: #333;
   border-radius: 2px;
   transition: width 0.3s ease;
@@ -45,7 +45,7 @@ header {
 
 .hamburger-btn .line-top { width: 80%; }
 .hamburger-btn .line-middle { width: 100%; }
-.hamburger-btn .line-bottom { width: 50%; }
+.hamburger-btn .line-bottom { width: 60%; }
 
 /*.hamburger-btn {
   font-size: 24px;
