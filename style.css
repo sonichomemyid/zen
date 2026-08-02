@@ -11,15 +11,18 @@ body {
 }
 
 /* TOMBOL HAMBURGER DI UTAMA */
-.burger-menu {
-  width: 30px; /* Ukuran lebar area burger */
-  display: flex;
-  flex-direction: column;
-  gap: 5px; /* Jarak antar garis */
+.burger-btn {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  background: #1e1e24;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  font-size: 1.2rem;
   cursor: pointer;
-  /* Tambahkan align-items kalau mau ratar kanan/kiri */
-  /* align-items: flex-end; (rata kanan) */
-  /* align-items: flex-start; (rata kiri - default) */
+  z-index: 10;
 }
 
 .line {
