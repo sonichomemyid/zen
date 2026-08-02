@@ -34,6 +34,7 @@ header {
   justify-content: space-between;
   align-items: flex-start;
   padding: 0;
+  border: 1px solid #333;
 }
 
 .hamburger-btn .bar {
@@ -71,7 +72,6 @@ header {
   height: 40px;       /* Atur tinggi gambar (sesuaikan keinginan, misal 30px - 40px) */
   width: auto;        /* Lebar mengikuti proporsi tinggi agar gambar tidak gepeng */
   object-fit: contain;
-  border: 1px solid #333;
 }
 
 /* --- Sidebar / Drawer --- */
@@ -162,7 +162,7 @@ header {
 .hero-image {
   width: 100%;
   border-radius: 0;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   object-fit: cover;
 }
 
@@ -171,7 +171,6 @@ header {
   color: #003fff;
   margin-bottom: 5px;
   text-align: center;
-  padding: 0 5px;
 }
 
 .hero-content h4 {
@@ -186,7 +185,7 @@ header {
   font-size: 26px;
   line-height: 1.0;
   color: #03afff;
-  padding: 10px;
+  padding: 0 10px;
 }
 .judul p {
   font-size: px;
