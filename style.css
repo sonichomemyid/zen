@@ -1,134 +1,93 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SONICHOME</title>
+  
+  <!-- FontAwesome Icons & Google Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-body {
-  min-height: 100vh;
-  background: #f4f4f4;
-}
+  <!-- Overlay -->
+  <div class="overlay" id="overlay"></div>
 
-/* TOMBOL HAMBURGER DI UTAMA */
-.burger-btn {
-  position: fixed;
-  top: 1rem;
-  left: 1rem;
-  background: #1e1e24;
-  color: #fff;
-  border: none;
-  padding: 0.6rem 0.8rem;
-  border-radius: 6px;
-  font-size: 1.2rem;
-  cursor: pointer;
-  z-index: 10;
-  gap: 5px;
-}
+  <!-- Header -->
+  <header>
+    <button class="hamburger-btn" id="hamburgerBtn">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <div class="logo">
+      <i class="fa-solid fa-wifi" style="color: #00bcd4;"></i>
+      SONICHOME
+    </div>
+  </header>
 
-.line {
-  height: 3px; /* Ketebalan garis */
-  background-color: #333; /* Warna garis */
-  border-radius: 2px;
-}
+  <!-- Sidebar Component -->
+  <aside class="sidebar" id="sidebar">
+    
+    <!-- Menu Utama -->
+    <div class="sidebar-section">
+      <div class="sidebar-title">Menu Utama</div>
+      <ul class="sidebar-menu">
+        <li>
+          <a href="#"><i class="fa-solid fa-house"></i> Beranda</a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-store"></i> Produk 
+            <i class="fa-solid fa-chevron-right arrow"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
 
-/* Pengaturan panjang masing-masing garis */
-.line-top {
-  width: 80%;
-}
+    <!-- Support -->
+    <div class="sidebar-section">
+      <div class="sidebar-title">Support</div>
+      <ul class="sidebar-menu">
+        <li>
+          <a href="#"><i class="fa-solid fa-phone"></i> Contact</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-book-open"></i> Tentang</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-lock"></i> Syarat & Ketentuan</a>
+        </li>
+      </ul>
+    </div>
 
-.line-middle {
-  width: 100%;
-}
+    <!-- My Team -->
+    <div class="sidebar-section">
+      <div class="sidebar-title">My Team</div>
+      <ul class="sidebar-menu">
+        <li>
+          <a href="#"><i class="fa-solid fa-crown"></i> Kontribusi</a>
+        </li>
+      </ul>
+    </div>
 
-.line-bottom {
-  width: 50%;
-}
+  </aside>
 
+  <!-- Hero Content -->
+  <main class="hero">
+    <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=800&q=80" alt="Router Wi-Fi" class="hero-image" />
+    
+    <div class="hero-content">
+      <h1>SonicHome</h1>
+      <p><strong>Anti-Lag, Dengan Kecepatan Super Fast.</strong></p>
+      <p>Nikmati koneksi hingga 100 Mbps, bikin kerja dan main game jadi lebih lancar.</p>
+      <p>Cocok untuk Media, Tugas, dan Hiburan di Rumah Anda bersama SonicHome.</p>
+    </div>
+  </main>
 
-/* SIDEBAR BASE (KONDISI TUTUP FULL) */
-aside {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 250px;
-  height: 100vh;
-  background: #1e1e24;
-  color: #fff;
-  padding: 1rem;
-  /* Sembunyikan full ke kiri luar layar */
-  transform: translateX(-100%);
-  transition: transform 0.3s ease-in-out;
-  z-index: 100;
-}
-
-/* KONDISI BUKA FULL */
-aside.active {
-  transform: translateX(0);
-}
-
-/* HEADER SIDEBAR */
-.nav-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 2rem;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-.close-btn {
-  background: none;
-  border: none;
-  color: #fff;
-  font-size: 1.4rem;
-  cursor: pointer;
-}
-
-/* NAV LINKS */
-.nav-links {
-  list-style: none;
-}
-
-.nav-links a {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  color: #aaa;
-  text-decoration: none;
-  padding: 0.75rem 0.5rem;
-  border-radius: 6px;
-}
-
-.nav-links a:hover {
-  background: #2d2d38;
-  color: #fff;
-}
-
-/* OVERLAY GELAP SAAT BUKA */
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.4);
-  display: none;
-  z-index: 99;
-}
-
-.overlay.active {
-  display: block;
-}
-
-/* KONTEN UTAMA */
-main {
-  padding: 5rem 2rem 2rem 2rem;
-}
-
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
