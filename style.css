@@ -56,10 +56,21 @@ header {
   margin-right: 15px;
 }*/
 
+/* Styling kontainer logo */
 .logo {
-  height: 20px;
-  width: auto;
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Jarak antara foto logo dan teks */
+  font-weight: 700;
+  font-size: 20px;
+  color: #0b2b5c;
+}
+
+/* Styling ukuran foto logo */
+.logo-img {
+  height: 35px;       /* Atur tinggi gambar (sesuaikan keinginan, misal 30px - 40px) */
+  width: auto;        /* Lebar mengikuti proporsi tinggi agar gambar tidak gepeng */
+  object-fit: contain;
 }
 
 /* --- Sidebar / Drawer --- */
