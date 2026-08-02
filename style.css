@@ -80,7 +80,7 @@ header {
   left: -280px;
   width: 280px;
   height: 100%;
-  background-color: #99DFFF;
+  background-color: #d0f0ff;
   z-index: 1000;
   transition: left 0.3s ease;
   overflow-y: auto;
@@ -167,9 +167,9 @@ header {
 }
 
 .hero-content h1 {
-  font-size: 28px;
-  color: #1e3a8a;
-  margin-bottom: 15px;
+  font-size: 20px;
+  color: #003fff;
+  margin-bottom: 5px;
   text-align: center;
 }
 
