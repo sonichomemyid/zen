@@ -57,7 +57,7 @@ header {
 }*/
 
 .logo {
-  display: flex;
+  display: block;
   align-items: center;
   gap: 10px;
   font-weight: 700;
