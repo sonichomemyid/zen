@@ -34,7 +34,6 @@ header {
   justify-content: space-between;
   align-items: flex-start;
   padding: 0;
-  border: 1px solid #333;
 }
 
 .hamburger-btn .bar {
