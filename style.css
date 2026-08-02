@@ -57,12 +57,9 @@ header {
 }*/
 
 .logo {
+  height: 20px;
+  width: auto;
   display: block;
-  align-items: center;
-  gap: 10px;
-  font-weight: 700;
-  font-size: 20px;
-  color: #0b2b5c;
 }
 
 /* --- Sidebar / Drawer --- */
