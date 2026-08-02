@@ -174,9 +174,9 @@ header {
   padding: 0 5px;
 }
 
-.hero-content p {
+.hero-content h4 {
   font-size: 16px;
-  line-height: 1.0;
+  line-height: 0.5;
   color: #475569;
   margin-bottom: 10px;
   padding: 10px;
