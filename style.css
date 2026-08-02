@@ -80,7 +80,7 @@ header {
   left: -280px;
   width: 280px;
   height: 100%;
-  background-color: #d0f0ff;
+  background-color: #def5ff;
   z-index: 1000;
   transition: left 0.3s ease;
   overflow-y: auto;
