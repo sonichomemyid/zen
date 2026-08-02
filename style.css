@@ -97,8 +97,8 @@ header {
 }
 
 .sidebar-title {
-  padding: 5px 25px;
-  font-size: 12px;
+  padding: 5px 10px;
+  font-size: 10px;
   font-weight: 600;
   color: #64748b;
   text-transform: uppercase;
@@ -121,7 +121,7 @@ header {
 }
 
 .sidebar-menu li a:hover {
-  background-color: #e2e8f0;
+  background-color: #def5ff;
 }
 
 .sidebar-menu li a i {
@@ -159,7 +159,6 @@ header {
 }
 
 .hero-image {
-  
   width: 100%;
   border-radius: 0;
   margin-bottom: 20px;
@@ -176,7 +175,7 @@ header {
 
 .hero-content h4 {
   font-size: 16px;
-  line-height: 0.5;
+  line-height: 1.0;
   color: #475569;
   margin-bottom: 10px;
   padding: 10px;
