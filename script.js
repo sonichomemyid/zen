@@ -1,20 +1,21 @@
-const sidebar = document.getElementById('sidebar');
-const toggleBtn = document.getElementById('btn-toggle');
-const closeBtn = document.getElementById('btn-close');
-const overlay = document.getElementById('overlay');
+document.addEventListener('DOMContentLoaded', () => {
+  const sidebar = document.getElementById('sidebar');
+  const overlay = document.getElementById('overlay');
+  const hamburgerBtn = document.getElementById('hamburgerBtn');
 
-// Buka Sidebar
-toggleBtn.addEventListener('click', () => {
-  sidebar.classList.add('active');
-  overlay.classList.add('active');
+  function toggleSidebar() {
+    sidebar.classList.toggle('active');
+    overlay.classList.toggle('active');
+  }
+
+  function closeSidebar() {
+    sidebar.classList.remove('active');
+    overlay.classList.remove('active');
+  }
+
+  // Event Listeners
+  hamburgerBtn.addEventListener('click', toggleSidebar);
+  overlay.addEventListener('click', closeSidebar);
 });
 
-// Tutup Sidebar (via tombol X atau klik overlay luar)
-const closeSidebar = () => {
-  sidebar.classList.remove('active');
-  overlay.classList.remove('active');
-};
-
-closeBtn.addEventListener('click', closeSidebar);
-overlay.addEventListener('click', closeSidebar);
 
