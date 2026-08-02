@@ -22,15 +22,39 @@ header {
   top: 0;
   z-index: 100;
 }
-
 .hamburger-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 15px;
+  width: 26px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.hamburger-btn .bar {
+  height: 3px;
+  background-color: #333;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.hamburger-btn .line-top { width: 80%; }
+.hamburger-btn .line-middle { width: 100%; }
+.hamburger-btn .line-bottom { width: 50%; }
+
+/*.hamburger-btn {
   font-size: 24px;
   background: none;
   border: none;
   cursor: pointer;
   color: #333;
   margin-right: 15px;
-}
+}*/
 
 .logo {
   display: flex;
