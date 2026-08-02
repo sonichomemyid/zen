@@ -11,19 +11,36 @@ body {
 }
 
 /* TOMBOL HAMBURGER DI UTAMA */
-.burger-btn {
-  position: fixed;
-  top: 1rem;
-  left: 1rem;
-  background: #1e1e24;
-  color: #fff;
-  border: none;
-  padding: 0.6rem 0.8rem;
-  border-radius: 6px;
-  font-size: 1.2rem;
+.burger-menu {
+  width: 30px; /* Ukuran lebar area burger */
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Jarak antar garis */
   cursor: pointer;
-  z-index: 10;
+  /* Tambahkan align-items kalau mau ratar kanan/kiri */
+  /* align-items: flex-end; (rata kanan) */
+  /* align-items: flex-start; (rata kiri - default) */
 }
+
+.line {
+  height: 3px; /* Ketebalan garis */
+  background-color: #333; /* Warna garis */
+  border-radius: 2px;
+}
+
+/* Pengaturan panjang masing-masing garis */
+.line-top {
+  width: 80%;
+}
+
+.line-middle {
+  width: 100%;
+}
+
+.line-bottom {
+  width: 50%;
+}
+
 
 /* SIDEBAR BASE (KONDISI TUTUP FULL) */
 aside {
