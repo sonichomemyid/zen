@@ -144,7 +144,17 @@ header {
 .overlay.active {
   display: block;
 }
-
+close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  bordr: none;
+  font-size: 30px;
+  color: #333;
+  cursor: pinter;
+  line-height: 1;
+}
 /* --- Hero Content --- */
 .hero {
   padding: 0;
