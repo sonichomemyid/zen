@@ -111,11 +111,12 @@ header {
   height: 40px;
   object-fit: contain;
   border-radius: 8px;
-  margin-top: 15px;
+  margin-top: 12px;
+  margin-right: 10px;
 }
 
 .sidebar-content {
-  padding-top: 90px;
+  padding-top: 80px;
   padding-bottom: 20px;
 }
 
