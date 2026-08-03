@@ -70,9 +70,9 @@ header {
 /* --- Sidebar / Drawer --- */
 .sidebar {
   position: fixed;
-  top: 0;
+  top: 50px;
   left: -280px;
-  width: 200px;
+  width: 280px;
   height: 100%;
   background-color: #def5ff;
   z-index: 1000;
