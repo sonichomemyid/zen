@@ -144,7 +144,7 @@ header {
 .overlay.active {
   display: block;
 }
-close-btn {
+.close-btn {
   position: absolute;
   top: 20px;
   right: 20px;
