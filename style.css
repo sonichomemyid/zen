@@ -79,6 +79,7 @@ header {
   transition: left 0.3s ease;
   overflow-y: auto;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 
 .sidebar.active {
@@ -86,13 +87,12 @@ header {
 }
 
 .sidebar-section {
-  padding: 0 20px;
+  padding: 0 20px 20px 20px;
   border-bottom: 1px solid #e2e8f0;
-  margin-bottom: 20px;
 }
  .sidebar-section:first-child {
    padding-top: 60px;
-   margin-bottom: 0;
+   padding-bottom: 20px;
  }
 .sidebar-title {
   padding: 10px 0 5px 25px;
@@ -153,7 +153,7 @@ header {
 }
 .close-btn {
   position: absolute;
-  top: 15px;
+  top: 20px;
   right: 20px;
   background: none;
   border: none;
