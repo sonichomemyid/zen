@@ -70,12 +70,12 @@ header {
 /* --- Sidebar / Drawer --- */
 .sidebar {
   position: fixed;
-  top: 60px;
+  top: 0;
   left: -280px;
   width: 280px;
   height: 100%;
   background-color: #def5ff;
-  z-index: 1003;
+  z-index: 1000;
   transition: left 0.3s ease;
   overflow-y: auto;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
