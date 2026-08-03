@@ -60,7 +60,7 @@ header {
 .logo {
   display: flex;
   align-items: center;
-  gap: 20px; /* Jarak antara foto logo dan teks */
+  gap: 40px; /* Jarak antara foto logo dan teks */
   font-weight: 700;
   font-size: 20px;
   color: #0b2b5c;
@@ -68,7 +68,7 @@ header {
 
 /* Styling ukuran foto logo */
 .logo-img {
-  height: 40px;       /* Atur tinggi gambar (sesuaikan keinginan, misal 30px - 40px) */
+  height: 90px;       /* Atur tinggi gambar (sesuaikan keinginan, misal 30px - 40px) */
   width: auto;        /* Lebar mengikuti proporsi tinggi agar gambar tidak gepeng */
   object-fit: contain;
 }
