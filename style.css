@@ -86,6 +86,7 @@ header {
 }
 
 .sidebar-section {
+  margin-top: 50px;
   padding: 10px 0;
   border-bottom: 1px solid #e2e8f0;
 }
@@ -146,7 +147,7 @@ header {
 }
 .close-btn {
   position: absolute;
-  top: 25px;
+  top: 15px;
   right: 20px;
   background: none;
   border: none;
