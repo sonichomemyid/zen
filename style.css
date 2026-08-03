@@ -86,12 +86,12 @@ header {
 }
 
 .sidebar-section {
-  padding: 5px 0;
+  padding: 10px 0;
   border-bottom: 1px solid #e2e8f0;
 }
 
 .sidebar-title {
-  padding: 0 25px;
+  padding: 90px 25px;
   font-size: 10px;
   font-weight: 600;
   color: #64748b;
@@ -106,7 +106,7 @@ header {
 .sidebar-menu li a {
   display: flex;
   align-items: center;
-  padding: 10px 25px;
+  padding: 13px 25px;
   color: #334155;
   text-decoration: none;
   font-size: 15px;
