@@ -146,12 +146,12 @@ header {
 }
 .close-btn {
   position: absolute;
-  top: 20px;
+  top: 25px;
   right: 20px;
   background: none;
   border: none;
-  font-size: 30px;
-  color: #333;
+  font-size: 25px;
+  color: #64748b;
   cursor: pinter;
   line-height: 1;
 }
