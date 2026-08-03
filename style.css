@@ -80,21 +80,25 @@ header {
   overflow-y: auto;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
 }
+.sidebar-content {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
 
 .sidebar.active {
   left: 0;
 }
 
 .sidebar-section {
-  padding: 0 20px 20px 20px 20px;
+  padding: 0 20px 20px 20px;
   border-bottom: 1px solid #e2e8f0;
 }
  .sidebar-section:first-child {
-   margin-top: 60px;
+   margin-top: 0;
    padding-top: 0;
  }
 .sidebar-title {
-  padding: 10px 0 5px 5px;
+  padding: 10px 0 5px 25px;
   font-size: 10px;
   font-weight: 600;
   color: #64748b;
@@ -154,6 +158,7 @@ header {
   position: absolute;
   top: 20px;
   right: 20px;
+  z-index: 1001;
   background: none;
   border: none;
   font-size: 25px;
