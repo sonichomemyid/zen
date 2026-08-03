@@ -15,7 +15,7 @@ body {
 header {
   display: flex;
   align-items: center;
-  padding: 15px 20px;
+  padding: 20px 20px;
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
   position: sticky;
@@ -47,29 +47,22 @@ header {
 .hamburger-btn .line-middle { width: 100%; }
 .hamburger-btn .line-bottom { width: 60%; }
 
-/*.hamburger-btn {
-  font-size: 24px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: #333;
-  margin-right: 15px;
-}*/
 
 /* Styling kontainer logo */
 .logo {
   display: flex;
   align-items: center;
-  gap: 60px; /* Jarak antara foto logo dan teks */
+  gap: 60px;
   font-weight: 700;
   font-size: 20px;
   color: #0b2b5c;
+  margin-left: 10px;
 }
 
-/* Styling ukuran foto logo */
+
 .logo-img {
-  height: 40px;       /* Atur tinggi gambar (sesuaikan keinginan, misal 30px - 40px) */
-  width: auto;        /* Lebar mengikuti proporsi tinggi agar gambar tidak gepeng */
+  height: 40px;       
+  width: auto;        
   object-fit: contain;
 }
 
