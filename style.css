@@ -255,8 +255,8 @@ header {
 }
 
 .sidebar-logo img {
-  width: 32px;
-  height: 32px;
+  width: 90px;
+  height: 30px;
   object-fit: contain;
   border-radius: 8px;
 }
