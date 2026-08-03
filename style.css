@@ -79,6 +79,7 @@ header {
   transition: left 0.3s ease;
   overflow-y: auto;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
 }
 
 .sidebar.active {
@@ -86,7 +87,6 @@ header {
 }
 
 .sidebar-section {
-  margin-top: 50px;
   padding: 10px 0;
   border-bottom: 1px solid #e2e8f0;
 }
