@@ -236,7 +236,8 @@ header {
   font-size: 16px;
   color: #333;
   margin: 0 0 10px 0;
-  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 .whatsapp {
   position: fixed; 
@@ -270,7 +271,7 @@ header {
    background: #ffffff;
    color: #000;
    border: 2px solid #000;
-   padding: 15px 5px;
+   padding: 10px 5px;
    border-radius: 10px;
    font-weight: bold;
    width: 50%;
