@@ -14,7 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
     overlay.classList.remove('active');
   }
 
-  // Event Listeners
   hamburgerBtn.addEventListener('click', toggleSidebar);
   overlay.addEventListener('click', closeSidebar);
   closeBtn.addEventListener('click', closeSidebar);
