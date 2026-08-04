@@ -239,7 +239,7 @@ header {
   padding-top: 5px;
   padding-bottom: 10px;
   padding-right: auto;
-  padding-left: auto;
+  padding-left: 10px;
 }
 .whatsapp {
   position: fixed; 
