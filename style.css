@@ -265,7 +265,6 @@ header {
   text-align: center;
   margin-top: 60px;
   margin-bottom: 20px;
-  text-decoration: none;
 }
 .btn-subscribe {
    background: #ffffff;
@@ -281,8 +280,10 @@ header {
    margin-bottom: 20px;
    margin-left: auto;
    margin-right: auto;
+   text-decoration: none;
 }
 .btn-subscribe:hover {
   background-color: #eee;
   transform: translateY(-2px);
+  text-decoration: none;
 }
