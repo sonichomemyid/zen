@@ -263,8 +263,9 @@ header {
 
 .action-button-container {
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px; /*20px*/
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-decoration: none;
 }
 .btn-subscribe {
    background: #ffffff;
@@ -273,7 +274,7 @@ header {
    padding: 15px 5px;
    border-radius: 10px;
    font-weight: bold;
-   width: 90%;
+   width: 50%;
    max-width: 300px;
    display: block;
    margin-top: 0;
