@@ -294,6 +294,6 @@ header {
 .footer {
   padding: 10;
   box-sizing: border-box;
-  background: 333;
-  color: fff;
+  background: #333;
+  color: #fff;
 }
