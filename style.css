@@ -319,7 +319,7 @@ body.no-scroll {
   text-decoration: none;
 }
 
-.has-dropdown.action .submenu {
+.has-dropdown.active .submenu {
   max-height: 200px;
 }
 
@@ -327,6 +327,6 @@ body.no-scroll {
   float: right;
   transition: transform 0.3s;
 }
-has-dropdown..active .arrow {
+.has-dropdown.active .arrow {
   transform: rotate(90deg);
 }
