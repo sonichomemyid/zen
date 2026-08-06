@@ -298,10 +298,35 @@ header {
   padding: 10px;
   text-align: center;
   font-size: 10;
-  
 }
 
 body.no-scroll {
   overflow: hidden;
   width: 100%;
+}
+
+.submenu {
+  max-height: 0;
+  overflow: hidden;
+  transtion: max-height 0.6s ease;
+  padding-left: 25px;
+}
+
+.submenu li a {
+  font-size: 14px;
+  padding: 8px;
+  display: block;
+  text-decoration: none;
+}
+
+.has-dropdown.action .submenu {
+  max-height: 200px;
+}
+
+.has-dropdown .arrow {
+  float: right;
+  transition: transform 0.3s;
+}
+has-dropdown..active .arrow {
+  transform: rotate(90deg);
 }
