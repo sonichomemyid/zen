@@ -324,8 +324,10 @@ body.no-scroll {
 }
 
 .has-dropdown .arrow {
-  float: right;
-  transition: transform 0.3s;
+  margin-left: auto;
+  font-size: 12px;
+  /*float: right;
+  transition: transform 0.3s;*/
 }
 .has-dropdown.active .arrow {
   transform: rotate(90deg);
