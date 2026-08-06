@@ -292,8 +292,9 @@ header {
 }
 
 .footer {
-  padding: 10;
   box-sizing: border-box;
   background: #333;
   color: #fff;
+  padding: 10px;
+  text-align: center;
 }
