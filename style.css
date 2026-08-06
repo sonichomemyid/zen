@@ -290,3 +290,10 @@ header {
   transform: translateY(-2px);
   text-decoration: none;
 }
+
+.footer {
+  padding: 10;
+  box-sizing: border-box;
+  background: 333;
+  color: fff;
+}
