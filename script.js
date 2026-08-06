@@ -7,11 +7,13 @@ document.addEventListener('DOMContentLoaded', () => {
   function toggleSidebar() {
     sidebar.classList.toggle('active');
     overlay.classList.toggle('active');
+    document.body.classList.add('no-scroll')
   }
 
   function closeSidebar() {
     sidebar.classList.remove('active');
     overlay.classList.remove('active');
+    document.classList.remove('no-scroll')
   }
 
   hamburgerBtn.addEventListener('click', toggleSidebar);
