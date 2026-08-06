@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const overlay = document.getElementById('overlay');
   const hamburgerBtn = document.getElementById('hamburgerBtn');
   const closeBtn = document.getElementById('closeBtn');
+  const dropdownBtn = document.querySelector('.dropdown-btn');
+  const dropdown = document.querySelector('.has-dropdown');
   
   function toggleSidebar() {
     sidebar.classList.toggle('active');
@@ -19,6 +21,9 @@ document.addEventListener('DOMContentLoaded', () => {
   hamburgerBtn.addEventListener('click', toggleSidebar);
   overlay.addEventListener('click', closeSidebar);
   closeBtn.addEventListener('click', closeSidebar);
+  dropdownBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  dropdown.classList.toggle('active');
 });
-
+});
 
