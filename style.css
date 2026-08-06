@@ -122,7 +122,7 @@ header {
 
 .sidebar-section {
   padding: 0 20px 20px 20px;
-  border-bottom: 1px solid #cccdce;
+  border-bottom: 1px solid #eee;
 }
  .sidebar-section:first-child {
    margin-top: 0;
@@ -153,6 +153,7 @@ header {
   font-weight: 500;
   transition: background 0.2s;
   margin: 0 -20px;
+  border-bottom: 1px solid #cccdce;
 }
 
 .sidebar-menu li a:hover {
