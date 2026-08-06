@@ -21,9 +21,11 @@ document.addEventListener('DOMContentLoaded', () => {
   hamburgerBtn.addEventListener('click', toggleSidebar);
   overlay.addEventListener('click', closeSidebar);
   closeBtn.addEventListener('click', closeSidebar);
-  dropdownBtn.addEventListener('click', (e) => {
-  e.preventDefault();
-  dropdown.classList.toggle('active');
-});
+  if (dropdownBtn && dropdown) {
+    dropdownBtn.addEventListener('click', (e) => {
+      e.preventDefault()
+      dropdown.classList.toggle('active');
+    })
+  }
 });
 
