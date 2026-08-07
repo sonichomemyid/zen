@@ -30,12 +30,26 @@ document.addEventListener('DOMContentLoaded', () => {
     })
   }
   
-  const animatedElements = document.querySelectorAll('.animated'); // nampung semua .animated
   
-  animatedElements.forEach((element, index) => {
-    setTimeout(() => {
-      element.classList.add('show'); // tambahin class show gantian
-    }, index * 150); // 150ms jeda antar element
+  const animatedElements = document.querySelectorAll('.animated');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      // kalo element 20% masuk ke layar
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+        observer.unobserve(entry.target); // biar cuma jalan 1x doang
+      }
+    });
+  }, { 
+    threshold: 0.2 // 20%. Bisa ganti 0.1 = 10%
   });
+
+  // daftarin semua element ke observer
+  animatedElements.forEach(element => {
+    observer.observe(element);
+  });
+  
+});
   
 });
