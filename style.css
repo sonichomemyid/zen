@@ -346,9 +346,26 @@ body.no-scroll {
     margin-left: 250px;
   }
 }
+.about-logo {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #0b2b5c;
+  margin-left: 10px;
+  padding-botoom: 10px;
+}
+
+.about-logo img {
+  height: 40px;       
+  width: auto;        
+  object-fit: contain;
+  margin-top: 10px;
+}
 .tentang { 
   padding: 5px 20px; 
-  background: #fff; 
+  background: #f8f9fa; 
   max-width: 900px; 
   margin: auto; 
   line-height: 1.8; 
