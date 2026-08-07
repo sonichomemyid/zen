@@ -365,9 +365,9 @@ margin: auto;
    linear-gradient(rgba(0,0,0,.06) 1px, transparent 1px),
    linear-gradient(90deg, rgba(0,0,0,.06) 1px, transparent 1px);
   background-size: 40px 40px;
-  padding: 0;  
+  padding: 20px;  
   max-width: 900px; 
-  margin: auto; 
+  margin: 0; 
   line-height: 1.8; 
 }
 
