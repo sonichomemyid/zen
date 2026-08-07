@@ -393,10 +393,7 @@ margin: auto;
 }
 .card-paket:hover {
   transform: tranlateY(-5px);
-}
-.card-paket:nth-child(1){ border-top-color: #00aaff; 
-.card-paket:nth-child(2){ border-top-color: #0056ff;
-.card-paket:nth-child(3){ border-top-color: #ff6a00;       
+}    
                          
 .card-paket h3 {
   color: #0056ff;
