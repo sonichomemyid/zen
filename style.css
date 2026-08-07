@@ -346,3 +346,19 @@ body.no-scroll {
     margin-left: 250px;
   }
 }
+.tentang { 
+  padding: 5px 20px; 
+  background: #fff; 
+  max-width: 900px; 
+  margin: auto; 
+  line-height: 1.8; 
+}
+
+.tentang h2, .tentang h3 { 
+  color: #0d47a1; 
+  margin: 20px 0 10px; 
+}
+
+.tentang ul { 
+  margin-left: 20px; 
+}
