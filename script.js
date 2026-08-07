@@ -30,19 +30,20 @@ document.addEventListener('DOMContentLoaded', () => {
     })
   }
   const reveals = document.querySelector('.reveal');
+
+  if (reveals.length > 0) {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry, index) => {
     if (entry.isIntersecting) {
       setTimeout(() => {
         entry.target.classList.add('show');
-      }, index * 150)
+      }, index * 100);
       obserever.unobeserve(entry.target);
     }
     });
 }, {
-  threshold: 0.15
+  threshold: 0.1
 });
-reveals.forEach(reveal => {
-  observer.observe(reveal)
-});
+reveals.forEach(reveal => observer.observe(reveal));
+}
 });
