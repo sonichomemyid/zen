@@ -355,7 +355,7 @@ text-align: center;
 margin: auto;
 }
 .about-logo img {
-   max-width: 210px;
+   max-width: 230px;
    height: auto;
    width: 100%;
 }
@@ -377,11 +377,6 @@ margin: auto;
 }
 
 .tentang ul { 
-  background-color: #f8f9fa;
-  background-image: 
-   linear-gradient(rgba(0,0,0,.06) 1px, transparent 1px),
-   linear-gradient(90deg, rgba(0,0,0,.06) 1px, transparent 1px);
-  background-size: 40px 40px;
   margin-left: 10px; 
 }
 .paket-container {
