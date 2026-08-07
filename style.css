@@ -352,10 +352,10 @@ body.no-scroll {
 }
 .about-logo {
 text-align: center;
-margin: 10px;
+margin: auto;
 }
 .about-logo img {
-   max-width: 200px;
+   max-width: 190px;
    height: auto;
    width: 100%;
 }
@@ -387,7 +387,7 @@ margin: 10px;
    linear-gradient(rgba(0,0,0,.06) 1px, transparent 1px),
    linear-gradient(90deg, rgba(0,0,0,.06) 1px, transparent 1px);
   background-size: 40px 40px;
-  margin-left: 20px; 
+  margin-left: 10px; 
 }
 .paket-container {
   display: grid;
