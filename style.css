@@ -412,51 +412,32 @@ margin: 30px;
   font-weight: normal;
   color: #666;
 }                                     
-
-.contributor-header {
-  text-align: center;
-  padding: 100px 20px 40px;
-  margin-top: 80px;
+.badge {
+  position: absolute;
+  top: 15px;
+  right: -30px;
+  background: #00aaff;
+  color: white;
+  padding: 5px 35px;
+  font-size: 0.8em;
+  font-weight: bold;
+  transform: rotate(45deg);
 }
-.contributor-header h1 { font-size: 2.5em; color: #0056ff; margin-bottom: 10px; }
-.contributor-header p { font-size: 1.1em; color: #666; }
-
-.contributor-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
-  padding: 20px 20px 60px;
-  max-width: 900px;
-  margin: auto;
+.badge-merah { 
+  bakground: #ff3d00; 
 }
-
-.card-contributor {
-  background: white;
-  border-radius: 15px;
-  padding: 40px 25px;
-  text-align: center;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-  border-top: 4px solid #0056ff;
-  transition: transform 0.3s ease;
+.badge-kuning: { 
+  backgound: #ffc107; 
+  color: #222;
 }
-.card-contributor:hover {
-  transform: translateY(-8px);
+.syarat { 
+  font-size: 0.8em; 
+  color: #888;
 }
-
-.card-contributor .icon {
-  font-size: 3em;
+.deskripsi { 
+  color: #444; 
+  line-height: 1.6;
   margin-bottom: 15px;
 }
-
-.card-contributor h3 { font-size: 1.4em; color: #222; margin-bottom: 5px; }
-.card-contributor .jabatan { 
-  color: #0056ff; 
-  font-weight: bold; 
-  font-size: 0.95em; 
-  margin-bottom: 12px; 
-}
-.card-contributor .bio { 
-  color: #666; 
-  font-size: 0.9em; 
-  line-height: 1.6; 
-}                         
+                         
+  
