@@ -7,6 +7,10 @@
 
 body {
   background-color: #f8f9fa;
+  background-image: 
+   linear-gradient(rgba(0,0,0,.06) 1px, transparent 1px),
+   linear-gradient(90deg, rgba(0,0,0,.06) 1px, transparent 1px);
+  background-size: 40px 40px;
   color: #333;
   overflow-x: hidden;
 }
