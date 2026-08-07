@@ -387,7 +387,7 @@ margin: auto;
   border-radius: 15px;
   padding: 10px 25px;
   box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-  border-top: 2px solid #333;
+  border: 2px solid #333;
   text-align: center;
   transition: transform 1.0s ease;
 }
