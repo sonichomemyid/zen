@@ -412,3 +412,51 @@ margin: 30px;
   font-weight: normal;
   color: #666;
 }                                     
+
+.contributor-header {
+  text-align: center;
+  padding: 100px 20px 40px;
+  margin-top: 80px;
+}
+.contributor-header h1 { font-size: 2.5em; color: #0056ff; margin-bottom: 10px; }
+.contributor-header p { font-size: 1.1em; color: #666; }
+
+.contributor-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 20px 20px 60px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.card-contributor {
+  background: white;
+  border-radius: 15px;
+  padding: 40px 25px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+  border-top: 4px solid #0056ff;
+  transition: transform 0.3s ease;
+}
+.card-contributor:hover {
+  transform: translateY(-8px);
+}
+
+.card-contributor .icon {
+  font-size: 3em;
+  margin-bottom: 15px;
+}
+
+.card-contributor h3 { font-size: 1.4em; color: #222; margin-bottom: 5px; }
+.card-contributor .jabatan { 
+  color: #0056ff; 
+  font-weight: bold; 
+  font-size: 0.95em; 
+  margin-bottom: 12px; 
+}
+.card-contributor .bio { 
+  color: #666; 
+  font-size: 0.9em; 
+  line-height: 1.6; 
+}                         
