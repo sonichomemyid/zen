@@ -29,21 +29,4 @@ document.addEventListener('DOMContentLoaded', () => {
       dropdown.classList.toggle('active');
     })
   }
-  const reveals = document.querySelector('.reveal');
-
-  if (reveals.length > 0) {
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry, index) => {
-    if (entry.isIntersecting) {
-      setTimeout(() => {
-        entry.target.classList.add('show');
-      }, index * 100);
-      obserever.unobeserve(entry.target);
-    }
-    });
-}, {
-  threshold: 0.1
-});
-reveals.forEach(reveal => observer.observe(reveal));
-}
 });
