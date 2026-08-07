@@ -197,6 +197,21 @@ header {
   cursor: pinter;
   line-height: 1;
 }
+.dashboard-content {
+  margin-left: 250px;
+  padding: 20px;
+  animatiion: slideInLeft 0.6s ease-out fowards;
+}
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 
 .hero {
   padding: 0;
