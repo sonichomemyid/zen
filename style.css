@@ -340,5 +340,5 @@ body.no-scroll {
 }
 .reveal.show {
   transform: translateX(0);
-  opaciti: 1;
+  opacity: 1;
 }
