@@ -29,4 +29,13 @@ document.addEventListener('DOMContentLoaded', () => {
       dropdown.classList.toggle('active');
     })
   }
+  
+  const animatedElements = document.querySelectorAll('.animated'); // nampung semua .animated
+  
+  animatedElements.forEach((element, index) => {
+    setTimeout(() => {
+      element.classList.add('show'); // tambahin class show gantian
+    }, index * 150); // 150ms jeda antar element
+  });
+  
 });
