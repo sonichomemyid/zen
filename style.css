@@ -385,7 +385,7 @@ margin: auto;
 .card-paket {
   background: white;
   border-radius: 15px;
-  padding: 10px 20px;
+  padding: 10px 10px;
   box-shadow: 0 5px 20px rgba(0,0,0,0.08);
   border: 2px solid #333;
   text-align: center;
@@ -397,7 +397,7 @@ margin: auto;
                          
 .card-paket h3 {
   color: #0056ff;
-  font-size: 0.5em;
+  font-size: 2em;
   margin-bottom: 10px;
 }
 .card-paket .harga { 
