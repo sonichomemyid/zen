@@ -282,7 +282,7 @@ header {
    max-width: 300px;
    display: block;
    margin-top: 0;
-   margin-bottom: 10px;
+   margin-bottom: 0;
    margin-left: auto;
    margin-right: auto;
    text-decoration: none;
@@ -332,7 +332,7 @@ body.no-scroll {
 }
 
 .animated {
-  padding: 10px 5px;
+  padding: 5px 5px;
   transform: translateX(-50px);
   opacity: 0;
   transition: transform 1.7s cubic-bezier(0.22, 1, 0.36, 1), opacity 1.7s ease-out;
@@ -347,21 +347,13 @@ body.no-scroll {
   }
 }
 .about-logo {
-  display: flex;
-  align-items: center;
-  gap: 60px;
-  font-weight: 700;
-  font-size: 20px;
-  color: #0b2b5c;
-  margin-left: 10px;
-  padding-botoom: 10px;
+text-align: center;
+margin: 30px;
 }
-
 .about-logo img {
-  height: 40px;       
-  width: auto;        
-  object-fit: contain;
-  margin-top: 10px;
+   max-width: 250px;
+   height: auto;
+   width: 100%;
 }
 .tentang { 
   padding: 5px 20px; 
