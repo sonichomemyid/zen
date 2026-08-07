@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const dropdownBtn = document.querySelector('.dropdown-btn');
   const dropdown = document.querySelector('.has-dropdown');
   
+      
+  
   function toggleSidebar() {
     sidebar.classList.toggle('active');
     overlay.classList.toggle('active');
@@ -27,5 +29,20 @@ document.addEventListener('DOMContentLoaded', () => {
       dropdown.classList.toggle('active');
     })
   }
+  const reveals = document.querySelector('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, index) => {
+    if (entry.isIntersecting) {
+      setTimeout(() => {
+        entry.target.classList.add('show');
+      }, index * 150)
+      obserever.unobeserve(entry.target);
+    }
+    });
+}, {
+  threshold: 0.15
 });
-
+reveals.forEach(reveal => {
+  observer.observe(reveal)
+});
+});
