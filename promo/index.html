@@ -1,2 +1,140 @@
-<h1>Hello Zen Lyncxx</h1>
-<h2>Creator/Owner Sedang Membuat Halaman Web ini</h2>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sonic Home - Dashboard</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="overlay" id="overlay"></div>
+
+  <header>
+    <button class="hamburger-btn" id="hamburgerBtn">
+         <span class="bar line-top"></span>
+    <span class="bar line-middle"></span>
+    <span class="bar line-bottom"></span>
+    </button>
+    <div class="logo">
+      <a href="/">
+    <img src="/image/logo.png" alt="Logo Sonic" class="logo-img">
+      </a>
+    </div>
+  </header>
+
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+       <div class="sidebar-logo">
+    <img src="/image/logo.png" alt="Logo Sonic">
+    </div>
+    <button class="close-btn" id="closeBtn">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    </div>
+   
+    <div class="sidebar-content">
+    <div class="sidebar-section">
+      <div class="sidebar-title">Menu Utama</div>
+      <ul class="sidebar-menu">
+        <li>
+          <a href="/"><i class="fa-solid fa-house"></i> Beranda<i class="fa-solid fa-chevron-right arrow"></i></a>
+        </li>
+        <li class="has-dropdown">
+          <a href="#" class="dropdown-btn">
+            <i class="fa-solid fa-store"></i> Produk 
+            <i class="fa-solid fa-chevron-down arrow"></i>
+          </a>
+			<ul class="submenu">
+				<li><a href="/wifi"><i class="fa-solid fa-wifi"></i> WIFI</a></li>
+				<li><a href="/cctv"><i class="fa-solid fa-camera"></i> CCTV</a></li>
+			</ul>
+        </li>
+		  <li>
+		  <a href="/promo"><i class="fa-solid fa-tag"></i> Promo<i class="fa-solid fa-chevron-right arrow"></i></a>
+		  </li>
+      </ul>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-title">Support</div>
+      <ul class="sidebar-menu">
+        <li>
+          <a href="/contact"><i class="fa-solid fa-phone"></i> Hubungi Kami<i class="fa-solid fa-chevron-right arrow"></i></a>
+        </li>
+        <li>
+          <a href="/about"><i class="fa-solid fa-book-open"></i> Tentang<i class="fa-solid fa-chevron-right arrow"></i></a>
+        </li>
+        <li>
+          <a href="/terms"><i class="fa-solid fa-lock"></i> Syarat & Ketentuan<i class="fa-solid fa-chevron-right arrow"></i></a>
+        </li>
+        <li>
+          <a href="/faq"><i class="fa-solid fa-circle-question"></i>FAQ<i class="fa-solid fa-chevron-right arrow"></i></a>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="sidebar-section">
+      <div class="sidebar-title">My Team</div>
+      <ul class="sidebar-menu">
+        <li>
+          <a href="/team"><i class="fa-solid fa-crown"></i> Contributors<i class="fa-solid fa-chevron-right arrow"></i></a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </aside>
+		<section class="animated">
+<div class="judul">
+      <h1>Promo <br> Sonic Home</h1>
+  <p>Penyedia Layanan Ineternet Terbaik Untuk Rumah Anda</p>
+</div>
+		</section>
+  <section class="promo-container">
+
+    <div class="card-promo">
+      <div class="badge">Promo</div>
+    <h3>Promo Awal Tahun</h3>
+    <p class="deskripsi">Berlaku Untuk Paket Pro</p>
+    <div class="syarat">* Syarat & Kententuan berlaku</div>
+    <a href="https:wa.me/8175284838" class="btn-subscribe">Klaim Promo</a>
+  </div>
+    
+  </section>
+
+    <section class="animated">
+	<section id="tentang" class="tentang">
+  <div class="about-logo">
+    <img src="/image/logo.png" alt="Logo Sonic">
+    </div>
+	<h2>Tentang Kami</h2>
+    <p>Sonic Home adalah penyedia layanan internet rumahan untuk keseharian seperti pekerjaan, tugas, game, sosmed, dll.</p>
+    
+    <h3>Kenapa Pilih Sonic Home?</h3>
+    <ul>
+      <li><b>Kecepatan Tinggi:</b> Streaming, game, sosmed, zoom, dll lancar anti lag</li>
+      <li><b>Kuota Unlimited:</b> Nikmati internetan tanpa khawatir kuota bakalan habis</li>
+      <li><b>Harga Terjangkau:</b> Paket mulai dari 150rb/bulan</li>
+      <li><b>Instalasi Cepat:</b> Tim kami sigap melayani</li>
+      <li><b>Support 24/7:</b> Ada kendala? Tim CS kami selalu siap 1×24 Jam </li>
+    </ul>
+    </p>
+  </section>
+	</section>
+   <a href="https://wa.me/628175284838" class="whatsapp" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+
+	<footer class="footer">	
+	<p>SONIC HOME || By TRIKAMEDIA</p>
+		<p>Jl. Mahoni, Semarapura Kelod, Klungkung,<br> Bali, Indonesia</p>
+		<div class="footer-links" style="margin-top: 10px;">
+    <a href="/terms" style="color: #ffffff; text-decoration: underline; font-size: 10px;">Syarat & Ketentuan</a>
+  </div>
+	</footer>
+  <script src="script.js"></script>
+</body>
+</html>
