@@ -375,7 +375,7 @@ margin: 30px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 25px;
-  padding: 40px 20px;
+  padding: 10px 20px;
   max-width: 1200px;
   margin: 10px auto 0;
 }
