@@ -564,7 +564,6 @@ margin: auto;
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  pointer-events: none;
 }
 
 .contact-item {
@@ -572,7 +571,6 @@ margin: auto;
   gap: 15px;
   margin-bottom: 20px;
   align-items: flex-start;
-  pointer-events: none;
 }
 .contact-item i {
   font-size: 1.5rem;
@@ -598,4 +596,8 @@ margin: auto;
 contact-item a:hover {
    color: #007bff
    text-decoration: underline;
+}
+
+.contact-item h2 h3 {
+  pointer-events: none;
 }
