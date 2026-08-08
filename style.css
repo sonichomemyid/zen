@@ -139,6 +139,7 @@ header {
   color: #64748b;
   text-transform: uppercase;
   margin-bottom: 5px;
+  pointer-events: none;
 }
 
 .sidebar-menu {
@@ -207,6 +208,7 @@ header {
   padding: 0;
   max-width: 600px;
   margin: 0 auto;
+  pointer-events: none;
 }
 
 .hero-image {
@@ -221,6 +223,7 @@ header {
   color: #003fff;
   margin-bottom: 5px;
   text-align: center;
+  pointer-events: none;
 }
 
 .hero-content p {
@@ -230,9 +233,11 @@ header {
   margin-bottom: 10px;
   padding: 10px;
   padding-top: 10x;
+  pointer-events: none;
 }
 .hero-content b {
   font-size: 20px;
+  pointer-events: none;
 }
 
 .judul h1 {
@@ -240,6 +245,7 @@ header {
   line-height: 1.0;
   color: #03afff;
   padding: 5px 10px;
+  pointer-events: none;
 }
 .judul p {
   font-size: 16px;
@@ -249,6 +255,7 @@ header {
   padding-bottom: 10px;
   padding-right: auto;
   padding-left: 10px;
+  pointer-events: none;
 }
 .whatsapp {
   position: fixed; 
@@ -293,6 +300,7 @@ header {
    margin-left: auto;
    margin-right: auto;
    text-decoration: none;
+  pointer-events: none;
 }
 .btn-subscribe:hover {
   background-color: #eee;
@@ -307,6 +315,7 @@ header {
   padding: 5px;
   text-align: center;
   font-size: 15px;
+  pointer-events: none;
 }
 
 body.no-scroll {
@@ -367,6 +376,7 @@ margin: auto;
   max-width: 900px; 
   margin: auto; 
   line-height: 1.8; 
+  pointer-events: none;
 }
 
 .tentang h2, .tentang h3 { 
@@ -393,6 +403,7 @@ margin: auto;
   border: 2px solid #333;
   text-align: center;
   transition: transform 1.0s ease;
+  pointer-events: none;
 }
 .card-paket:hover {
   transform: tranlateY(-5px);
@@ -422,30 +433,33 @@ margin: auto;
   color: white;
   padding: 5px 35px;
   font-size: 10px;
-   border-radius: 8px;
+  border-radius: 8px;
   font-weight: bold;
+  pointer-events: none;
 }
-.badge-merah { 
+.badge.merah { 
   bakground: #ff3d00; 
 }
-.badge-kuning: { 
+.badge.kuning: { 
   backgound: #ffc107; 
   color: #222;
 }
 .syarat { 
   font-size: 0.8em; 
   color: #888;
+  pointer-events: none;
 }
 .deskripsi { 
   color: #444; 
   line-height: 1.6;
   margin-bottom: 15px;
+  pointer-events: none;
 }
 .card-contributor {
   display: flex;
   gap: 20px;
   background: #fff;
-  border: 1px solid #333;
+  border: 2px solid #333;
   border-radius: 16px;
   padding: 24px;
   margin-bottom: 20px;
@@ -455,7 +469,7 @@ margin: auto;
   width: 50px;
   height: 50px;
   border-radius: 12px;
-  background: #eee;
+  background: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -463,6 +477,7 @@ margin: auto;
   font-weight: bold;
   color: #333;
   flex-shrink: 0;
+  border: 1px solid #333;
 }
 .info {
   flex: 1;
@@ -487,7 +502,7 @@ margin: auto;
   color: #222;
   letter-spacing: 0.5px;
 }
-badge-team.owner {
+.badge-team.owner {
   bakground: #0056ff;
   color: white;
 }
