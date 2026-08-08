@@ -498,8 +498,8 @@ margin: auto;
   font-weight: 700;
   padding: 4px 10px;
   border-radius: 20px;
-  background: #f2f2f2;
-  color: #222;
+  background: #f00000;
+  color: white;
   letter-spacing: 0.5px;
 }
 .badge-team.owner {
