@@ -564,6 +564,7 @@ margin: auto;
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  pointer-events: none;
 }
 
 .contact-item {
@@ -571,13 +572,14 @@ margin: auto;
   gap: 15px;
   margin-bottom: 20px;
   align-items: flex-start;
+  pointer-events: none;
 }
 .contact-item i {
   font-size: 1.5rem;
   color: #007bff;
   margin-top: 3px;
 }
-.contact-item a { color: #007bff; text-decoration: none; }
+
 
 .contact-form input, .contact-form textarea {
   width: 100%;
@@ -587,21 +589,6 @@ margin: auto;
   border-radius: 8px;
   font-size: 1rem;
 }
-.btn-kirim {
-  width: 100%;
-  background: #25D366;
-  color: white;
-  padding: 14px;
-  border: none;
-  border-radius: 8px;
-  font-size: 1.1rem;
-  font-weight: bold;
-  cursor: pointer;
-}
-.btn-kirim:hover { background: #1ebe5b; }
-
-.maps { padding: 0 20px 50px; max-width: 1100px; margin: auto; }
-.maps iframe { border-radius: 12px; }
 
 .contact-item a {
    color: #333;
