@@ -441,7 +441,7 @@ margin: auto;
   line-height: 1.6;
   margin-bottom: 15px;
 }
-.card-container {
+.card-contributor {
   display: flex;
   gap: 20px;
   background: #fff;
@@ -464,7 +464,7 @@ margin: auto;
   color: #666;
   flex-shrink: 0;
 }
->info {
+.info {
   flex: 1;
 }
 .name-row {
@@ -478,7 +478,7 @@ margin: auto;
   margin: 0;
   color: #222;
 }
-.badge-contributor {
+.badge-team {
   font-size: 0.7em;
   font-weight: 700;
   padding: 4px 10px;
@@ -487,15 +487,15 @@ margin: auto;
   color: #222;
   letter-spacing: 0.5px;
 }
-badge-contributor.owner {
+badge-team.owner {
   bakground: @0056ff;
   color: white;
 }
-.badge-contributor.partner {
+.badge-team.partner {
   background: #22c55e;
   color: white;
 }
-.badge-contributor.dev {
+.badge-team.dev {
   background: #6366f1;
   color: white;
 }
