@@ -444,24 +444,24 @@ margin: auto;
 .card-contributor {
   display: flex;
   gap: 20px;
-  background: #a5c5da;
-  border: 1px solid #e5e5e5;
+  background: #fff;
+  border: 1px solid #333;
   border-radius: 16px;
   padding: 24px;
   margin-bottom: 20px;
   pointer-events: none;
 }
 .avatar {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 12px;
-  background: #f2f2f2;
+  background: #a5c5da;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: bold;
-  color: #666;
+  color: #333;
   flex-shrink: 0;
 }
 .info {
