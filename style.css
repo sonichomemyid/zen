@@ -441,5 +441,77 @@ margin: auto;
   line-height: 1.6;
   margin-bottom: 15px;
 }
-                         
-  
+.card-container {
+  display: flex;
+  gap: 20px;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 20px;
+  pointer-events: none;
+}
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: pcenter;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #666;
+  flex-shrink: 0;
+}
+>info {
+  flex: 1;
+}
+.name-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+.name-row h3 {
+  font-size: 1.3em;
+  margin: 0;
+  color: #222;
+}
+.badge-team {
+  font-size: 0.7em;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 20px;
+  background: #f2f2f2;
+  color: #222;
+  letter-spacing: 0.5px;
+}
+badge-team.owner {
+  bakground: @0056ff;
+  color: white;
+}
+.badge.partner {
+  background: #22c55e;
+  color: white;
+}
+.badge.dev {
+  background: #6366f1;
+  color: white;
+}
+.role {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+.bio {
+  color: #444;
+  font-size: 0.95em;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+.quote {
+  color: #888;
+  font-style: italic;
+  font-size: 0.9em;
+}
