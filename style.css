@@ -555,7 +555,6 @@ margin: auto;
   max-width: 1100px;
   margin: auto;
   flex-wrap: wrap;
-  pointer-events: none;
 }
 
 .contact-info, .contact-form {
@@ -595,8 +594,10 @@ margin: auto;
    transition: 0.3s;
    text-decoration: none;
 }
-contact-item a:hover {
+.contact-item a:hover {
    color: #007bff
    text-decoration: underline;
 }
-
+.contact-container h2 h3 {
+  pointer-events: none;
+}
