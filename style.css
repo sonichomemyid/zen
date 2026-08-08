@@ -231,7 +231,7 @@ header {
   padding: 10px;
   padding-top: 10x;
 }
-hero-content b {
+.hero-content b {
   font-size: 20px;
 }
 
