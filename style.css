@@ -598,6 +598,6 @@ margin: auto;
    color: #007bff
    text-decoration: underline;
 }
-.contact-container h2 h3 {
+.contact-item h2 h3 {
   pointer-events: none;
 }
