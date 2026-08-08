@@ -488,7 +488,7 @@ margin: auto;
   letter-spacing: 0.5px;
 }
 badge-team.owner {
-  bakground: @0056ff;
+  bakground: #0056ff;
   color: white;
 }
 .badge-team.partner {
