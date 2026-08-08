@@ -478,7 +478,7 @@ margin: auto;
   margin: 0;
   color: #222;
 }
-.badge-team {
+.badge-contributor {
   font-size: 0.7em;
   font-weight: 700;
   padding: 4px 10px;
@@ -487,15 +487,15 @@ margin: auto;
   color: #222;
   letter-spacing: 0.5px;
 }
-badge-team.owner {
+badge-contributor.owner {
   bakground: @0056ff;
   color: white;
 }
-.badge.partner {
+.badge-contributor.partner {
   background: #22c55e;
   color: white;
 }
-.badge.dev {
+.badge-contributor.dev {
   background: #6366f1;
   color: white;
 }
