@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const closeBtn = document.getElementById('closeBtn');
   const dropdownBtn = document.querySelector('.dropdown-btn');
   const dropdown = document.querySelector('.has-dropdown');
-  const faqBtn = document.querySelectorAll(".faq-q");
+  const faqBtn = document.querySelectorAll(".faq-q, has-dropdown");
   const animatedElements = document.querySelectorAll('.animated');    
   
   function toggleSidebar() {
