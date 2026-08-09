@@ -603,7 +603,7 @@ margin: auto;
 }
 .terms-section {
   padding: 50px 20px;
-  background-color: #f8fafc;
+  background-color: transparent;
   font-family: system-ui, -apple-system, sans-serif;
   color: #334155;
 }
