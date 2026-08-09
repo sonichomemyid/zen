@@ -103,12 +103,7 @@
         <i class="fa-solid fa-phone" style="color: #283";></i>
         <div>
           <h3>Telepon</h3>
-          <p>
-<input type="text" id="copyInput" value="+62 8175-284-838" readonly>
-			  <button onclick="document.getElementById('copyInput').select(); document.execCommand('copy'); alert('Nomor disalin')">
-          Telepon
-			  </button>
-          </p>
+          <p onclick="navigator.clipboard.writeText('628175284838')">Telepon</p>
         </div>
       </div>
       <div class="contact-item">
