@@ -718,8 +718,9 @@ margin: auto;
   text-align: center;
   margin-top: 40px;
   padding: 20px;
-  background: #eff6ff;
+  background: #deecff;
   border-radius: 10px;
+  box-shadow: 0 10px 12px rgba(37, 99, 235, 0.1);
 }
 .faq-contact a {
   color: #2563eb;
