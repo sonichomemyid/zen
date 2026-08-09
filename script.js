@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const closeBtn = document.getElementById('closeBtn');
   const dropdownBtn = document.querySelector('.dropdown-btn');
   const dropdown = document.querySelector('.has-dropdown');
-  
-      
+  const faqBtn = document.querySelectorAll(".faq-q");
+  const animatedElements = document.querySelectorAll('.animated');    
   
   function toggleSidebar() {
     sidebar.classList.toggle('active');
@@ -31,23 +31,30 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   
   
-  const animatedElements = document.querySelectorAll('.animated');
 
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
-      // kalo element 20% masuk ke layar
       if (entry.isIntersecting) {
         entry.target.classList.add('show');
-        observer.unobserve(entry.target); // biar cuma jalan 1x doang
+        observer.unobserve(entry.target);
       }
     });
   }, { 
-    threshold: 0.2 // 20%. Bisa ganti 0.1 = 10%
+    threshold: 0.2
   });
-
-  // daftarin semua element ke observer
   animatedElements.forEach(element => {
     observer.observe(element);
   });
-  
+
+  faqBtn.forEach(btn => {
+    btn.addEventListener("click", () => {
+      const item = btn.parentElement;
+      item.classList.toggle("active");
+    });
+  });
 });
+
+
+  
+
+  
