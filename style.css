@@ -601,3 +601,31 @@ margin: auto;
 .contact-item h2 h3 {
   pointer-events: none;
 }
+.terms-page {
+  display: none; /* Sembunyikan semua halaman secara default */
+}
+
+.terms-page.active {
+  display: block; /* Tampilkan hanya halaman aktif */
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.terms-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+}
+
+.terms-card h2 {
+  font-size: 1.2rem;
+  color: #0284c7;
+  margin-top: 0;
+}
