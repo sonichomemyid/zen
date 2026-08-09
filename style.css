@@ -601,6 +601,22 @@ margin: auto;
 .contact-item h2 h3 {
   pointer-events: none;
 }
+.terms-section {
+  padding: 50px 20px;
+  background-color: #f8fafc;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #334155;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.terms-header {
+  text-align: center;
+  margin-bottom: 25px;
+}
 .terms-page {
   display: none; /* Sembunyikan semua halaman secara default */
 }
