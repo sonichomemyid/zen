@@ -351,9 +351,11 @@ body.no-scroll {
   max-height: 200px;
 }
 
-.has-dropdown .arrow {
+.has-dropdown span {
   float: right;
-  transition: boottom 0.3s;
+  font-size: 20px;
+  color: #2563eb;
+  transition: 0.3s;
 }
 
 .animated {
